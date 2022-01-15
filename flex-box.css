@@ -1,0 +1,522 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+ }   
+body {
+    margin: 0;
+} 
+.img {  
+    width:100%; 
+} 
+.clear {
+    clear: both; 
+}
+@media only screen and (min-width: 30px) and (max-width: 600px)  { 
+    .background {
+        background: url(https://image.freepik.com/free-photo/factory-worker-wearing-uniform-hardhat-operating-industrial-machine-with-push-button-joystick-production-hall_342744-214.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+    } 
+    .top {
+        flex-direction: column; 
+        align-items: center;
+        background-color: rgba(29, 218, 252, 0.801);
+        color: white;
+        display: flex;                                                        
+        flex-wrap: wrap;
+        padding: 5px;
+    }   
+    .content2 {
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(148, 209, 219, 0.801);
+        padding: 12px; 
+        display: flex;                                                       
+        flex-wrap: wrap;
+    }   
+    .top2 { 
+        display: inline-flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    } 
+    .search { 
+        background-color: white;
+        color: rgba(29, 218, 252, 0.801);
+        border: none; 
+    } 
+    .search_icon {
+        list-style: none;
+        background-color: rgba(29, 218, 252, 0.801);
+        border: solid yellow 0.1em; 
+    }
+    .menucontent { 
+        display: none; 
+    }
+    .menuicon {
+        display: block;
+        background-color: rgb(87, 132, 230);
+    }
+    .videorow  { 
+        background-color: rgb(192, 197, 201); 
+        display: flex;                                                           
+        flex-wrap: wrap;
+        justify-content:center;  
+        padding-bottom: 6px;
+    } 
+    .img1 {
+        width: 320px; 
+        height: 320px; 
+    }
+    .imgpara {
+        display: inline-block;
+        background-color: #b5b9bd; 
+        text-align: center;
+    }
+    .imgpara1 {
+        display: inline-block;
+        background-color: white;  
+        text-align: center;
+    }
+    .imgpara:hover { 
+        background-color: lightgreen;
+    }
+    .imgpara1:hover { 
+        background-color: lightpink; 
+    }
+    #backpics {
+        background: url(https://i.pinimg.com/736x/0f/43/17/0f4317a3ce652eb0b372e12391078dca.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .bothimgpara {   
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+    }
+    .blue {
+        color: rgb(87, 132, 230);
+        text-transform: uppercase;
+        font-size: 0.8em;
+    }
+    .para { 
+        color: rgb(53, 48, 48); 
+        font-size: 0.9em;
+    }
+    .row6 {
+        background-color: rgb(192, 197, 201);
+        padding: 10px;
+    } 
+    .bluebox {
+        background-color: rgb(87, 132, 230);
+        color: white;
+        padding: 6px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.8em;
+    }
+    .row7 {
+         text-align: center;
+         display: inline-block; 
+         padding: 10px; 
+    } 
+    .column1 {
+        background-color: rgb(192, 197, 201); 
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;   
+    }
+    .row8 {
+        text-align: center; 
+        display: inline-block;
+        padding: 20px;
+    }  
+    .column2 {
+        background-color: rgb(192, 197, 201); 
+        display: flex;      
+        flex-wrap: wrap; 
+        flex-direction: column;
+        justify-content: space-evenly;    
+    } 
+    .pic {
+        width: 120px; 
+        height: 120px;                      
+    }                            
+    .line { 
+        color:  rgb(87, 132, 230);
+        text-transform: uppercase;
+        font-size: 0.8em; 
+        font-weight: bold;
+        padding-top: 5px;   
+    }
+    .row9 {
+        background-color: rgb(238, 237, 230);
+        padding: 10px;
+    }
+    .bluebox2 {
+        background-color: rgb(87, 132, 230);
+        color: white; 
+        padding: 6px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.8em; 
+    }
+    .table {
+        background-color: rgb(238, 237, 230);
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: row; 
+        justify-content: center;
+        padding: 15px 0;
+    } 
+    .first {
+        background-color: hsl(221, 80%, 71%);
+        color: white;
+        text-transform: capitalize;
+        font-weight: bold;  
+        font-size: 0.8em; 
+        padding: 15px 0; 
+    }
+    .second { 
+        text-transform: capitalize;
+        background-color: white;
+        color: rgb(87, 132, 230);
+        font-weight: bold;    
+        font-size: 0.8em;
+        padding-bottom:  15px;
+    }
+    .mask {
+        background: url(https://ak.picdn.net/offset/photos/6025ae196f52af4409fd9e14/medium/offset_1092781.jpg?DFghwDcb?DFghwDcb);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 140px;
+    } 
+    .paragraph {
+        background-color: rgba(34, 36, 36, 0.692);
+        color: white;
+        font-size: 0.6rem;
+       font-weight: bold;
+       width: 140px;
+       padding-top: 10px;
+       padding-bottom: 200px;
+       padding-left: 20px;
+       padding-right: 10px;
+    } 
+    li {
+        margin-left: 20px; 
+    }
+    .picasa {
+        background: url(https://www.beekeeper.io/wp-content/uploads/2021/02/Factory-worker-motivation.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .font {
+        background-color: rgba(94, 224, 247, 0.801);
+        color: white; 
+        font-size: 0.7rem; 
+        text-transform: uppercase;
+        font-weight: 500;  
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly; 
+        text-align: center; 
+        padding: 7px;
+    }
+    #btton {
+        background-color: rgba(94, 224, 247, 0.801);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;  
+        text-align: center;   
+        padding: 5px; 
+    }
+    .btn {
+        padding: 10px 2px;   
+        border: none;
+        color: rgba(29, 218, 252, 0.801);
+        background-color: white; 
+        font-weight: 400;               
+        font-size: 0.6rem;
+        text-transform: uppercase;
+        width: 120px; 
+    }
+    .footer {
+        background-color: white;
+        color: rgba(29, 218, 252, 0.801);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px; 
+        font-size: 0.6rem;   
+    } 
+}
+@media only screen and (min-width: 600px) { 
+.background {
+    background: url(https://image.freepik.com/free-photo/factory-worker-wearing-uniform-hardhat-operating-industrial-machine-with-push-button-joystick-production-hall_342744-214.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+} 
+.top {
+    background-color: rgba(29, 218, 252, 0.801);
+    color: white;
+    display: flex;                                                        
+    flex-wrap: wrap;
+    justify-content:space-evenly; 
+    padding: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;      
+}   
+.content2 {
+    background-color: rgba(148, 209, 219, 0.801);
+    padding: 20px; 
+    display: flex;                                                       
+    flex-wrap: wrap;
+    justify-content:space-around; 
+}    
+.top2 { 
+    display: inline-flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+} 
+.search { 
+    background-color: white;
+    color: rgba(29, 218, 252, 0.801);
+    border: none; 
+} 
+.search_icon {
+    list-style: none;
+    background-color: rgba(29, 218, 252, 0.801);
+    border: solid yellow 0.2em; 
+}
+.menucontent { 
+    background-color: rgb(87, 132, 230);
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase; 
+    padding: 10px;
+} 
+.menuicon { 
+    display: none;
+} 
+.dec {
+    color: black;
+    text-decoration: none;
+    padding: 10px; 
+    margin: 0 10px;
+}
+.dec:hover{
+     background-color: rgb(53, 48, 48); 
+     color: white;
+}
+.videorow  {  
+    background-color: rgb(192, 197, 201); 
+    display: flex;                                                           
+    flex-wrap: wrap;
+    justify-content:center;  
+    padding-bottom: 5px;
+} 
+.imgpara {
+    display: inline-block;
+    background-color: rgb(181, 185, 189); 
+    text-align: center;
+    width: 230.7px;
+}
+.imgpara1 {
+    display: inline-block;
+    background-color: white;  
+    text-align: center;
+    width: 230.7px;
+}
+.imgpara:hover { 
+    background-color: lightgreen;
+}
+.imgpara1:hover { 
+    background-color: lightpink; 
+}
+.bothimgpara { 
+    background-color: whitesmoke; 
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;  
+}
+.img1 {  
+    width: 230.7px;
+    height: 230.7px;
+ }     
+.blue {
+    color: rgb(87, 132, 230);
+    text-transform: uppercase; 
+    font-size: 0.5em;
+} 
+.para { 
+    color: rgb(53, 48, 48); 
+    font-size: 0.5em;
+    padding: 10px;
+}
+.row6 {
+    background-color: rgb(192, 197, 201);
+    padding: 20px;
+} 
+.bluebox {
+    background-color: rgb(87, 132, 230);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em; 
+}
+.row7 {
+     text-align: center;
+     display: inline-block; 
+     padding: 25px;
+} 
+.column1 {
+    background-color: rgb(192, 197, 201); 
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.row8 {
+    text-align: center; 
+    display: inline-block;
+    padding: 25px;
+}  
+.column2 {
+    background-color: rgb(192, 197, 201); 
+    display: flex;      
+    flex-wrap: wrap; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+} 
+.pic {
+    width: 100px; 
+    height: 100px;                   
+}                            
+.line { 
+    color:  rgb(87, 132, 230);
+    text-transform: uppercase;
+    font-size: 0.5em; 
+    font-weight: bold;
+    padding-top: 10px;   
+}
+.row9 {
+    background-color: rgb(238, 237, 230);
+    padding: 20px;
+}
+.bluebox2 {
+    background-color: rgb(87, 132, 230);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em; 
+}
+.table {
+    background-color: rgb(238, 237, 230);
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: center;
+    padding: 10px 25px;
+} 
+.first {
+    background-color: hsl(221, 80%, 71%);
+    color: white;
+    text-transform: capitalize; 
+    font-size: 0.5em; 
+    font-family: 'Caveat', cursive; 
+    font-weight: bold;
+    width: 30%;
+    padding-right: 200px; 
+}
+.second { 
+    text-transform: capitalize;
+    background-color: white;
+    color: rgb(87, 132, 230); 
+    font-size: 0.5em; 
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    width: 20%; 
+}
+.mask {
+    background: url(https://ak.picdn.net/offset/photos/6025ae196f52af4409fd9e14/medium/offset_1092781.jpg?DFghwDcb?DFghwDcb);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%; 
+} 
+.paragraph {
+    background-color: rgba(34, 36, 36, 0.692);
+    color: white;
+    font-size: 0.6rem;
+   font-weight: bold;
+   font-family: 'Caveat', cursive;
+   width: 55%;
+   padding-bottom: 154px;
+}  
+li {
+    margin-left: 20px; 
+}
+.picasa {
+    background: url(https://www.beekeeper.io/wp-content/uploads/2021/02/Factory-worker-motivation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.font {
+    background-color: rgba(94, 224, 247, 0.801);
+    color: white; 
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 600;  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    text-align: center; 
+    padding: 8px;
+}
+#btton {
+    background-color: rgba(94, 224, 247, 0.801);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    text-align: center;  
+    padding: 6px;
+}
+.btn {
+    padding: 10px 2px;   
+    border: none;
+    color: rgba(29, 218, 252, 0.801);
+    background-color: white; 
+    font-weight: 500;               
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    width: 25%; 
+}
+.footer {
+    background-color: white;
+    color: rgba(29, 218, 252, 0.801);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px; 
+    font-size: 0.6rem;  
+} 
+} 
